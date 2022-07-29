@@ -29,8 +29,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 // 1. When input field 1 then auto move to field 2
-// 2. use viewMode trigger to update all field
-// 3.
+// 2. use viewMode trigger to update all field should available
 class MainActivity : ComponentActivity(), HomeEvent {
 
     private val viewModel by viewModels<HomeViewModel>()
